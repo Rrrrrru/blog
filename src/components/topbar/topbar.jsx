@@ -12,16 +12,18 @@ export default function topbar() {
       <div className="topCenter">
         <ul className="topList">
           <li className="topListItem">
-            <Link className="HomeLink" to={"/blog"}>HOME</Link>
+            <Link className="homeLink" to={"/blog"}>HOME</Link>
           </li>
           <li className="topListItem">ABOUT</li>
           <li className="topListItem">CONNECT</li>
-          <li className="topListItem">4</li>
+          <li className="topListItem">
+            <Link className="writeLink" to={"/write"}>WRITE</Link>
+          </li>
         </ul>
       </div>
 
       <div className="topRight">
-        <img className="topImg" src=" https://media.istockphoto.com/photos/-picture-id499808648?s=612x612 " alt="" />
+        <img className="topImg" src=" https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTgwOTUyNjU2Mzg5MjQ1/albert-einstein-quotes-jpg.jpg " alt="" />
       </div>
     </div>
   )
